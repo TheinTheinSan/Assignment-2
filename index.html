@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background: rgb(36, 36, 36);
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 30px;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        a {
+            text-align: center;
+        }
+
+        .contanier {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+        }
+
+        .card {
+            width: 20%;
+            margin: 15px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 20px;
+            cursor: pointer;
+            float: left;
+            box-shadow: 0 15px 28px rebeccapurple, 0 10px 10px rgb(red, green, blue);
+            transition: .4s;
+           background: white;
+            text-align: center;
+        }
+
+
+        img {
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+            display: block;
+            border-radius: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: brown;
+            padding-top: 0 8px;
+        }
+
+        h6 {
+            font-size: 27px;
+            text-align: center;
+            color: #222;
+            margin: 0;
+            display: block;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0;
+        }
+
+        li {
+            padding-top: 5px;
+        }
+
+        .fa {
+            font-size: 24px;
+            transition: .4s;
+            margin: 5px;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .fa:hover {
+            transform: scale(1, 3);
+            transition: .6s;
+        }
+
+        button {
+            text-align: center;
+            font-size: 24px;
+            color: #dbc5c5;
+            width: 100%;
+            padding: 15px;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+            margin-top: 5px;
+            border-bottom-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .buy-1 {
+            background: blue;
+        }
+
+        .buy-2 {
+            background: purple;
+        }
+
+        .buy-3 {
+            background: rgb(11, 11, 12);
+        }
+
+        .buy-4 {
+            background:palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contanier"></div>
+    <div class="card">
+        <img src="./airforce.png">
+        <h3>Shoes</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora nemo harum similique maxime architecto fuga autem explicabo rem.
+            Suscipit ducimus hic assumenda quia voluptatibus, esse corporis maiores fugiat omnis ea.</p>
+        <h6>$100.00</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+
+        <button class="buy-1">Buy Now</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./Earphone.png">
+        <h3>Earphone</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora nemo harum similique maxime architecto fuga autem explicabo rem.
+            Suscipit ducimus hic assumenda quia voluptatibus, esse corporis maiores fugiat omnis ea.</p>
+        <h6>$40.00</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-2">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="./Apple-watch-green-png.png">
+        <h3>Watch</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora nemo harum similique maxime architecto fuga autem explicabo rem.
+            Suscipit ducimus hic assumenda quia voluptatibus, esse corporis maiores fugiat omnis ea.</p>
+        <h6>$70.00</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star"></i></li>
+        </ul>
+        <button class="buy-3">Buy Now</button>
+    </div>
+
+    <div class="card">
+        <img src="./iphone__ky2k6x5u6vue_og.png">
+        <h3>Mobile</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Tempora nemo harum similique maxime architecto fuga autem explicabo rem.
+            Suscipit ducimus hic assumenda quia voluptatibus, esse corporis maiores fugiat omnis ea.</p>
+        <h6>$1000.00</h6>
+        <ul>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+            <li><i class="fa fa-star checked"></i></li>
+        </ul>
+        <button class="buy-4">Buy Now</button>
+
+    </div>
+</body>
+
+</html>
